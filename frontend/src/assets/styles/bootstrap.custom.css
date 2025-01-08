@@ -12118,3 +12118,13 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+
+/* Custom CSS */
+.custom-link {
+  text-decoration: none; 
+  color: inherit;        
+}
+.custom-link:hover {
+  text-decoration: none;
+}
