@@ -12123,7 +12123,7 @@ fieldset:disabled .btn {
 /* Custom CSS */
 .custom-link {
   text-decoration: none; 
-  color: inherit;        
+  color: white;        
 }
 .custom-link:hover {
   text-decoration: none;

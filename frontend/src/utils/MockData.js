@@ -7,7 +7,7 @@ export const Products = [
         "price": 9.99,
         "discountPercentage": 7.17,
         "rating": 4.94,
-        "stock": 5,
+        "countInStock": 5,
         "tags": [
           "beauty",
           "mascara"
@@ -67,7 +67,7 @@ export const Products = [
         "price": 19.99,
         "discountPercentage": 5.5,
         "rating": 3.28,
-        "stock": 44,
+        "countInStock": 44,
         "tags": [
           "beauty",
           "eyeshadow"
@@ -127,7 +127,7 @@ export const Products = [
         "price": 14.99,
         "discountPercentage": 18.14,
         "rating": 3.82,
-        "stock": 59,
+        "countInStock": 59,
         "tags": [
           "beauty",
           "face powder"
@@ -187,7 +187,7 @@ export const Products = [
         "price": 12.99,
         "discountPercentage": 19.03,
         "rating": 2.51,
-        "stock": 68,
+        "countInStock": 68,
         "tags": [
           "beauty",
           "lipstick"
@@ -247,7 +247,7 @@ export const Products = [
         "price": 2499.99,
         "discountPercentage": 18.54,
         "rating": 3.08,
-        "stock": 16,
+        "countInStock": 16,
         "tags": [
           "furniture",
           "sofas"
@@ -309,7 +309,7 @@ export const Products = [
         "price": 299.99,
         "discountPercentage": 9.58,
         "rating": 4.48,
-        "stock": 16,
+        "countInStock": 16,
         "tags": [
           "furniture",
           "bedside tables"
@@ -371,7 +371,7 @@ export const Products = [
         "price": 499.99,
         "discountPercentage": 15.23,
         "rating": 4.11,
-        "stock": 47,
+        "countInStock": 47,
         "tags": [
           "furniture",
           "office chairs"
@@ -433,7 +433,7 @@ export const Products = [
         "price": 799.99,
         "discountPercentage": 11.22,
         "rating": 3.26,
-        "stock": 95,
+        "countInStock": 95,
         "tags": [
           "furniture",
           "bathroom"
@@ -495,7 +495,7 @@ export const Products = [
         "price": 1.99,
         "discountPercentage": 1.97,
         "rating": 2.96,
-        "stock": 9,
+        "countInStock": 9,
         "tags": [
           "fruits"
         ],
@@ -553,7 +553,7 @@ export const Products = [
         "price": 12.99,
         "discountPercentage": 17.99,
         "rating": 2.83,
-        "stock": 96,
+        "countInStock": 96,
         "tags": [
           "meat"
         ],
@@ -611,7 +611,7 @@ export const Products = [
         "price": 8.99,
         "discountPercentage": 9.57,
         "rating": 2.88,
-        "stock": 13,
+        "countInStock": 13,
         "tags": [
           "pet supplies",
           "cat food"
@@ -670,7 +670,7 @@ export const Products = [
         "price": 9.99,
         "discountPercentage": 10.46,
         "rating": 4.61,
-        "stock": 69,
+        "countInStock": 69,
         "tags": [
           "meat"
         ],
@@ -729,7 +729,7 @@ export const Products = [
         "price": 4.99,
         "discountPercentage": 18.89,
         "rating": 4.01,
-        "stock": 22,
+        "countInStock": 22,
         "tags": [
           "cooking essentials"
         ],
@@ -787,7 +787,7 @@ export const Products = [
         "price": 1.49,
         "discountPercentage": 11.44,
         "rating": 4.71,
-        "stock": 22,
+        "countInStock": 22,
         "tags": [
           "vegetables"
         ],
@@ -845,7 +845,7 @@ export const Products = [
         "price": 10.99,
         "discountPercentage": 18.15,
         "rating": 2.74,
-        "stock": 40,
+        "countInStock": 40,
         "tags": [
           "pet supplies",
           "dog food"
@@ -904,7 +904,7 @@ export const Products = [
         "price": 2.99,
         "discountPercentage": 5.8,
         "rating": 4.46,
-        "stock": 10,
+        "countInStock": 10,
         "tags": [
           "dairy"
         ],
@@ -962,7 +962,7 @@ export const Products = [
         "price": 14.99,
         "discountPercentage": 7,
         "rating": 4.83,
-        "stock": 99,
+        "countInStock": 99,
         "tags": [
           "seafood"
         ],
@@ -1020,7 +1020,7 @@ export const Products = [
         "price": 1.29,
         "discountPercentage": 15.5,
         "rating": 4.28,
-        "stock": 89,
+        "countInStock": 89,
         "tags": [
           "vegetables"
         ],
@@ -1078,7 +1078,7 @@ export const Products = [
         "price": 0.99,
         "discountPercentage": 18.51,
         "rating": 4.43,
-        "stock": 8,
+        "countInStock": 8,
         "tags": [
           "vegetables"
         ],
@@ -1136,7 +1136,7 @@ export const Products = [
         "price": 6.99,
         "discountPercentage": 1.91,
         "rating": 3.5,
-        "stock": 25,
+        "countInStock": 25,
         "tags": [
           "condiments"
         ],
@@ -1194,7 +1194,7 @@ export const Products = [
         "price": 5.49,
         "discountPercentage": 7.58,
         "rating": 3.77,
-        "stock": 76,
+        "countInStock": 76,
         "tags": [
           "desserts"
         ],
@@ -1255,7 +1255,7 @@ export const Products = [
         "price": 3.99,
         "discountPercentage": 5.45,
         "rating": 3.41,
-        "stock": 99,
+        "countInStock": 99,
         "tags": [
           "beverages"
         ],
@@ -1313,7 +1313,7 @@ export const Products = [
         "price": 2.49,
         "discountPercentage": 10.32,
         "rating": 4.37,
-        "stock": 1,
+        "countInStock": 0,
         "tags": [
           "fruits"
         ],
