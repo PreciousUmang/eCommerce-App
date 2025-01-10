@@ -14,7 +14,7 @@
   "description": "",
   "dependencies": {
     "express": "^4.21.2",
-    "mongoose": "^8.9.3"
+    "mongoose": "^8.9.4"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",
