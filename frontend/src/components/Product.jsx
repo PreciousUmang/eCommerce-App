@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Rating from './Rating';
 import "../assets/styles/index.css"
 
-function Product({ product }) {
+const Product = ({ product }) => {
     return (
         <Card className="my-3 p-3 rounded">
             <Link to={`/product/${product._id}`}>
@@ -20,7 +20,7 @@ function Product({ product }) {
                 </Card.Text>
 
                 <Card.Text as="div">
-                    <Rating value={product.rating} text={`${product.reviews.length} Reviews`}/>
+                    <Rating value={product.rating} text={`${product.reviews.length} Reviews`} />
                 </Card.Text>
             </Card.Body>
         </Card>

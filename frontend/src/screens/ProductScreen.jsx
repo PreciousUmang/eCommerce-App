@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Row, Col, Image, ListGroup, Card, Button, ListGroupItem } from 'react-bootstrap'
+import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap'
 import axios from "axios";
 import Rating from "../components/Rating";
 
 function ProductScreen() {
-    const [product, setProduct] = useState({ reviews: [] });
+    const [product, setProduct] = useState({});
     const { id } = useParams();
 
     useEffect(() => {
@@ -31,7 +31,7 @@ function ProductScreen() {
                             <h3>{product.name}</h3>
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <Rating value={product.rating} text={`${product.reviews.length} Reviews`} />
+                            <Rating value={product.rating} text={`${product.numReviews} Reviews`} />
                         </ListGroup.Item>
                         <ListGroup.Item>
                             Price : ${product.price}
